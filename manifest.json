@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "UNIX Video Skipper",
+    "version": "1.0.0",
+    "description": "Skip Any Lecture Video You Want",
+    "icons": {
+        "16": "images/16.png",
+        "32": "images/32.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+    "host_permissions": [
+    "https://uni-x.almv.kz/*"
+    ],
+    "permissions": ["scripting", "activeTab", "tabs"],
+    "action": {
+        "default_popup": "popup/popup.html"
+    }
+  }
